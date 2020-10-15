@@ -1,9 +1,11 @@
 <template>
   <div class="hello">
-    <h1>springboot data:{{message}}</h1>
-    <button @click="getdata()">获取数据</button>
-    <button @click="go">点我跳转</button>
-    <button @click="test">跳转</button>
+    <div class="hello">
+      <h1>springboot data:{{message}}</h1>
+      <el-button @click="getdata()">获取数据</el-button>
+      <el-button @click="go">点我跳转</el-button>
+      <el-button @click="test">跳转</el-button>
+    </div>
   </div>
 </template>
 
